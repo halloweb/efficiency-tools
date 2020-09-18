@@ -10,9 +10,9 @@ module.exports = {
     // can be overwritten by process.env.HOST
     host: '0.0.0.0',
     port: 8080
-  },
-  chainWebpack: config => {
-    config.resolve.alias
-      .set('@', resolve('src'))
   }
+  // chainWebpack: config => {
+  //   config.resolve.alias
+  //     .set('@', resolve('src'))
+  // }
 }
